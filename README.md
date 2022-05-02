@@ -3,12 +3,7 @@ title: Log transformation with Fluent Bit for Google Kubernetes Engine
 description: Learn how to transform unstructured logs to structured logs with Fluent Bit for Google Kubernetes Engine logs.
 author: xiangshen-dk
 tags: logging, stackdriver, gke, fluent-bit
-date_published: 2022-04-18
 ---
-
-Xiang Shen | Solutions Architect | Google
-
-<p style="background-color:#CAFACA;"><i>Contributed by Google employees.</i></p>
 
 This tutorial describes customizing [Fluent Bit](https://fluentbit.io/) logging for a [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine)
 cluster to transform unstructured logs to structured logs. In this tutorial, you learn how to host your own configurable Fluent Bit daemonset to send logs to Cloud Logging, instead of selecting the Cloud Logging option when creating the Google Kubernetes Engine (GKE) cluster, which does not allow configuration of the Fluent Bit daemon.
